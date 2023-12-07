@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    background-color: #c9c9c9;
+    text-align: center;
+}
+form{
+    background-color: #FFFFFF;
+    padding: 1%;
+    border-radius: 25px;
+    margin: 2%;
+}
+.salaire{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.salaire_form{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"], input[type="number"], input[type="button"]{
+    border-radius: 25px;
+    padding: 10px;
+    margin: 1%;
+}
+input[type="range"]{
+    width: 75%;
+    background-color: #FFFFFF;
+    border: #000000 solid 1px;
+}
